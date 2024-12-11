@@ -1,0 +1,28 @@
+{
+  "homepage": "https://Valyhdh.github.io/cps-webpack-test2/",
+  "name": "cps-webpack-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d dist -r https://github.com/Valyhdh/cps-webpack-test2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "valera",
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^11.1.15"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
