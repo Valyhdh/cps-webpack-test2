@@ -17,13 +17,27 @@ module.exports = {
     new HTMLWebpackPlugin({
       template: './index.html'
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'src/assets'),
+          to: path.resolve(__dirname, 'dist/assets')
+        }
+      ]
+    })
   ],
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader'],
+      },
+      {
+        test: /\.css$/,
+        use: {
+          loader: 'css-loader'
+        }
       },
     ]
   }
