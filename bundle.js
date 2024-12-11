@@ -64,6 +64,17 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./assets/img/header_img/logo.svg":
+/*!****************************************!*\
+  !*** ./assets/img/header_img/logo.svg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8d05ff132974ac19e9aa71b56abc92ce.svg\");\n\n//# sourceURL=webpack:///./assets/img/header_img/logo.svg?");
+
+/***/ }),
+
 /***/ "./styles/styles.css":
 /*!***************************!*\
   !*** ./styles/styles.css ***!
@@ -158,7 +169,7 @@ eval("const aside = document.querySelector('.aside');\r\nconst ordercall = docum
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./swiper */ \"./scripts/swiper.js\");\n/* harmony import */ var _buttons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./buttons */ \"./scripts/buttons.js\");\n/* harmony import */ var _buttons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_buttons__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/styles.css */ \"./styles/styles.css\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./scripts/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./swiper */ \"./scripts/swiper.js\");\n/* harmony import */ var _buttons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./buttons */ \"./scripts/buttons.js\");\n/* harmony import */ var _buttons__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_buttons__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/styles.css */ \"./styles/styles.css\");\n/* harmony import */ var _assets_img_header_img_logo_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/img/header_img/logo.svg */ \"./assets/img/header_img/logo.svg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./scripts/script.js?");
 
 /***/ }),
 
@@ -181,6 +192,226 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var swip
 
 "use strict";
 eval("module.exports = \"data:application/font-woff;charset=utf-8;base64, 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\";\n\n//# sourceURL=webpack:///data:application/font-woff;charset=utf-8;base64,_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?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/back.svg":
+/*!****************************************!*\
+  !*** ./assets/img/header_img/back.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"42fba3899a6829ad7b17.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/back.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/burger.svg":
+/*!******************************************!*\
+  !*** ./assets/img/header_img/burger.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"84311d7f4dbee7a1902b.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/burger.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/call.svg":
+/*!****************************************!*\
+  !*** ./assets/img/header_img/call.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"90c53c69156e97d79c01.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/call.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/cancel.svg":
+/*!******************************************!*\
+  !*** ./assets/img/header_img/cancel.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"5e1c4e1d1e9f9221d991.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/cancel.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/chat.svg":
+/*!****************************************!*\
+  !*** ./assets/img/header_img/chat.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"907dfcfd9d453ec71b5b.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/chat.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/checkstatus.svg":
+/*!***********************************************!*\
+  !*** ./assets/img/header_img/checkstatus.svg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"448a5f00fbcc9eb528d3.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/checkstatus.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/profile.svg":
+/*!*******************************************!*\
+  !*** ./assets/img/header_img/profile.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"e7ba28c1cf9a33cbd0a4.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/profile.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/repair.svg":
+/*!******************************************!*\
+  !*** ./assets/img/header_img/repair.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"1fba278fd1d53afb1d6d.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/repair.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/header_img/search.svg":
+/*!******************************************!*\
+  !*** ./assets/img/header_img/search.svg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"12cb08e6cd2bb64f9d41.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/search.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/Line.svg":
+/*!**************************************!*\
+  !*** ./assets/img/main_img/Line.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"163d1a3d2105008066c1.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/Line.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/acer.svg":
+/*!**************************************!*\
+  !*** ./assets/img/main_img/acer.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"1853ed7eda204ab928a4.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/acer.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/apple.svg":
+/*!***************************************!*\
+  !*** ./assets/img/main_img/apple.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"6bc61cd42fe535b33e0a.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/apple.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/bosch.svg":
+/*!***************************************!*\
+  !*** ./assets/img/main_img/bosch.svg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"feb801a64dd30a12a233.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/bosch.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/expand.svg":
+/*!****************************************!*\
+  !*** ./assets/img/main_img/expand.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"e15bd5f667c8600f4387.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/expand.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/go.svg":
+/*!************************************!*\
+  !*** ./assets/img/main_img/go.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"5816cf5d95319cec61da.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/go.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/hp.svg":
+/*!************************************!*\
+  !*** ./assets/img/main_img/hp.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"b250dc2e1fad124c8ba5.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/hp.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/lenovo.svg":
+/*!****************************************!*\
+  !*** ./assets/img/main_img/lenovo.svg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"86f9160437efb791599f.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/lenovo.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/samsung.svg":
+/*!*****************************************!*\
+  !*** ./assets/img/main_img/samsung.svg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"97d0a42b74d83185a53d.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/samsung.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/sony.svg":
+/*!**************************************!*\
+  !*** ./assets/img/main_img/sony.svg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"72b01384ccd1fecfc80f.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/sony.svg?");
+
+/***/ }),
+
+/***/ "./assets/img/main_img/viewsonic.svg":
+/*!*******************************************!*\
+  !*** ./assets/img/main_img/viewsonic.svg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"4f623f261c9c42dc7bad.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/viewsonic.svg?");
 
 /***/ }),
 
@@ -291,226 +522,6 @@ eval("module.exports = __webpack_require__.p + \"28c45f59beabb241d2a9.woff\";\n\
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"830649a7c3cdfe2a63c6.woff2\";\n\n//# sourceURL=webpack:///./assets/fonts/TTLakesCondensed-Bold.woff2?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/back.svg":
-/*!****************************************!*\
-  !*** ./assets/img/header_img/back.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"b667962a9aec8ed9c351.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/back.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/burger.svg":
-/*!******************************************!*\
-  !*** ./assets/img/header_img/burger.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"280270d4ebd2aeff2fc2.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/burger.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/call.svg":
-/*!****************************************!*\
-  !*** ./assets/img/header_img/call.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"a28f84d657fbea487336.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/call.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/cancel.svg":
-/*!******************************************!*\
-  !*** ./assets/img/header_img/cancel.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"66cc31aab0ddfd1c3197.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/cancel.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/chat.svg":
-/*!****************************************!*\
-  !*** ./assets/img/header_img/chat.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"b90495a6685d94d1c0f4.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/chat.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/checkstatus.svg":
-/*!***********************************************!*\
-  !*** ./assets/img/header_img/checkstatus.svg ***!
-  \***********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"58550d2ce0686acd6a5d.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/checkstatus.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/profile.svg":
-/*!*******************************************!*\
-  !*** ./assets/img/header_img/profile.svg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"ae85981350f2d871efc0.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/profile.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/repair.svg":
-/*!******************************************!*\
-  !*** ./assets/img/header_img/repair.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"2f17fb686448b54d2818.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/repair.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/header_img/search.svg":
-/*!******************************************!*\
-  !*** ./assets/img/header_img/search.svg ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"83f3e279e0f58942443b.svg\";\n\n//# sourceURL=webpack:///./assets/img/header_img/search.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/Line.svg":
-/*!**************************************!*\
-  !*** ./assets/img/main_img/Line.svg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"2b186550e0ec177d8eec.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/Line.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/acer.svg":
-/*!**************************************!*\
-  !*** ./assets/img/main_img/acer.svg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"01c0120d30a983936ebd.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/acer.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/apple.svg":
-/*!***************************************!*\
-  !*** ./assets/img/main_img/apple.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"79c74e1768e1e90eb66b.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/apple.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/bosch.svg":
-/*!***************************************!*\
-  !*** ./assets/img/main_img/bosch.svg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"931f5cb8d4b9d4a7b216.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/bosch.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/expand.svg":
-/*!****************************************!*\
-  !*** ./assets/img/main_img/expand.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"37ba3156e021a970a1b9.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/expand.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/go.svg":
-/*!************************************!*\
-  !*** ./assets/img/main_img/go.svg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"6875ce0ec873fb87b08f.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/go.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/hp.svg":
-/*!************************************!*\
-  !*** ./assets/img/main_img/hp.svg ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"0990dcdd8bd4fefb2b0a.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/hp.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/lenovo.svg":
-/*!****************************************!*\
-  !*** ./assets/img/main_img/lenovo.svg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d8fa0165a956d899a532.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/lenovo.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/samsung.svg":
-/*!*****************************************!*\
-  !*** ./assets/img/main_img/samsung.svg ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"4edccd7e6db58c72c190.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/samsung.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/sony.svg":
-/*!**************************************!*\
-  !*** ./assets/img/main_img/sony.svg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"3be0c2abc381474d0809.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/sony.svg?");
-
-/***/ }),
-
-/***/ "./assets/img/main_img/viewsonic.svg":
-/*!*******************************************!*\
-  !*** ./assets/img/main_img/viewsonic.svg ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"b478a761f09386c03a12.svg\";\n\n//# sourceURL=webpack:///./assets/img/main_img/viewsonic.svg?");
 
 /***/ }),
 
