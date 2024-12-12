@@ -1,3 +1,9 @@
-@import "main.scss";
+@import 
+    "./modules/mainer",
+    "./modules/main",
+    "./modules/header",
+    "./modules/main",
+    "./modules/footer",
+    "./modules/aside";
 
 @import "../../node_modules/swiper/swiper-bundle.min.css"
