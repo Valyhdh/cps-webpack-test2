@@ -1,159 +1,4 @@
 @import "../../node_modules/swiper/swiper-bundle.min.css";
-body {
-  margin: 0;
-}
-
-.header,
-.main,
-.footer {
-  min-width: 320px;
-  max-width: 768px;
-}
-
-@font-face {
-  font-family: "TT Lakes Condensed";
-  src: local("TT Lakes Condensed Bold"), local("TTLakesCondensed-Bold"), url("../assets/fonts/TTLakesCondensed-Bold.eot") format("embedded-opentype"), url("../assets/fonts/TTLakesCondensed-Bold.woff2") format("woff2"), url("../assets/fonts/TTLakesCondensed-Bold.woff") format("woff"), url("../assets/fonts/TTLakesCondensed-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "TT Lakes Condensed";
-  font-style: normal;
-  font-weight: normal;
-  src: local("TT Lakes Condensed"), url("../assets/fonts/TTLakes-Regular.woff") format("woff"), url("../assets/fonts/TTLakes-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "TT Lakes";
-  src: local("TT Lakes Medium"), local("TTLakes-Medium"), url("../assets/fonts/TTLakes-Medium.eot") format("embedded-opentype"), url("../assets/fonts/TTLakes-Medium.woff2") format("woff2"), url("../assets/fonts/TTLakes-Medium.woff") format("woff"), url("../assets/fonts/TTLakes-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-.burger {
-  background-image: url("../assets/img/header_img/burger.svg");
-}
-.burger:active ~ .aside {
-  transform: translateX(100px);
-  transition: 3s;
-}
-
-.call {
-  background-image: url("../assets/img/header_img/call.svg");
-}
-
-.chat {
-  background-image: url("../assets/img/header_img/chat.svg");
-}
-
-.profile {
-  background-image: url("../assets/img/header_img/profile.svg");
-}
-
-.repair {
-  background-image: url("../assets/img/header_img/repair.svg");
-}
-.repair-brends, .repair-technic {
-  border-bottom: 1px solid #D9FFF5;
-}
-
-.checkstatus {
-  background-image: url("../assets/img/header_img/checkstatus.svg");
-}
-
-.close {
-  background-image: url("../assets/img/header_img/cancel.svg");
-}
-
-.search {
-  background-image: url("../assets/img/header_img/search.svg");
-}
-
-.header-navigation,
-.aside__header,
-.aside__header-nav,
-.aside__info-item,
-.modal__form,
-.modal__header {
-  display: flex;
-}
-
-.bottom:not(:last-child) {
-  margin-right: 0;
-}
-
-.item_dis-md,
-.item_dis-lg,
-.nav_dis-lg-flex,
-.title_dis-md,
-.content-more_brends,
-.content-more_technic {
-  display: none;
-}
-
-.bottom {
-  transition: transform 0.3s, opacity 0.3s;
-  padding: 0;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin: 24px 16px;
-}
-.bottom:hover {
-  opacity: 0.8;
-  transform: scale(0.9);
-}
-.bottom:active {
-  transform: scale(0.8);
-}
-
-.aside__menu-item,
-.aside__lang-item,
-.button_show {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .header,
-  .main,
-  .footer {
-    min-width: 768px;
-    max-width: 1440px;
-  }
-  .repair {
-    margin-left: 40px;
-  }
-  .dis-md,
-  .title_dis-md,
-  .content-more_brends,
-  .content-more_technic,
-  .swiper-img__subtitle_price--dis-md {
-    display: block;
-  }
-}
-@media (min-width: 1440px) {
-  .main {
-    margin: 0 auto;
-    max-width: 1440px;
-  }
-  .footer {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding-left: 280px;
-  }
-  .header,
-  .item_dis-md,
-  .close.aside__header-bottom {
-    display: none;
-  }
-  .checkstatus {
-    margin-right: 0;
-  }
-  .dis-lg,
-  .item_dis-lg,
-  .aside {
-    display: block;
-  }
-}
 .title {
   font-family: "TT Lakes Condensed";
   font-weight: bold;
@@ -463,9 +308,6 @@ body {
   color: #7E7E82;
   margin: 0px 0px 6px 0px;
 }
-.swiper-img__subtitle_price--dis-md {
-  margin-bottom: 40px;
-}
 
 .swiper-img__item_price {
   font-family: "TT Lakes";
@@ -545,6 +387,9 @@ body {
     padding: 20px 0px 5px 0px;
     height: auto;
     justify-content: space-between;
+  }
+  .swiper-img__subtitle_price--dis-md {
+    margin-bottom: 40px;
   }
   .swiper-wrapper_price {
     padding: 0px 40px;
@@ -1003,9 +848,6 @@ body {
   color: #7E7E82;
   margin: 0px 0px 6px 0px;
 }
-.swiper-img__subtitle_price--dis-md {
-  margin-bottom: 40px;
-}
 
 .swiper-img__item_price {
   font-family: "TT Lakes";
@@ -1085,6 +927,9 @@ body {
     padding: 20px 0px 5px 0px;
     height: auto;
     justify-content: space-between;
+  }
+  .swiper-img__subtitle_price--dis-md {
+    margin-bottom: 40px;
   }
   .swiper-wrapper_price {
     padding: 0px 40px;
@@ -1465,6 +1310,161 @@ body {
   .modal__close {
     position: absolute;
     right: 460px;
+  }
+}
+body {
+  margin: 0;
+}
+
+.header,
+.main,
+.footer {
+  min-width: 320px;
+  max-width: 768px;
+}
+
+@font-face {
+  font-family: "TT Lakes Condensed";
+  src: local("TT Lakes Condensed Bold"), local("TTLakesCondensed-Bold"), url("../assets/fonts/TTLakesCondensed-Bold.eot") format("embedded-opentype"), url("../assets/fonts/TTLakesCondensed-Bold.woff2") format("woff2"), url("../assets/fonts/TTLakesCondensed-Bold.woff") format("woff"), url("../assets/fonts/TTLakesCondensed-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Lakes Condensed";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TT Lakes Condensed"), url("../assets/fonts/TTLakes-Regular.woff") format("woff"), url("../assets/fonts/TTLakes-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"), url("../assets/fonts/TTLakes-Medium.eot") format("embedded-opentype"), url("../assets/fonts/TTLakes-Medium.woff2") format("woff2"), url("../assets/fonts/TTLakes-Medium.woff") format("woff"), url("../assets/fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.burger {
+  background-image: url("../assets/img/header_img/burger.svg");
+}
+.burger:active ~ .aside {
+  transform: translateX(100px);
+  transition: 3s;
+}
+
+.call {
+  background-image: url("../assets/img/header_img/call.svg");
+}
+
+.chat {
+  background-image: url("../assets/img/header_img/chat.svg");
+}
+
+.profile {
+  background-image: url("../assets/img/header_img/profile.svg");
+}
+
+.repair {
+  background-image: url("../assets/img/header_img/repair.svg");
+}
+.repair-brends, .repair-technic {
+  border-bottom: 1px solid #D9FFF5;
+}
+
+.checkstatus {
+  background-image: url("../assets/img/header_img/checkstatus.svg");
+}
+
+.close {
+  background-image: url("../assets/img/header_img/cancel.svg");
+}
+
+.search {
+  background-image: url("../assets/img/header_img/search.svg");
+}
+
+.header-navigation,
+.aside__header,
+.aside__header-nav,
+.aside__info-item,
+.modal__form,
+.modal__header {
+  display: flex;
+}
+
+.bottom:not(:last-child) {
+  margin-right: 0;
+}
+
+.item_dis-md,
+.item_dis-lg,
+.nav_dis-lg-flex,
+.title_dis-md,
+.content-more_brends,
+.content-more_technic {
+  display: none;
+}
+
+.bottom {
+  transition: transform 0.3s, opacity 0.3s;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 24px 16px;
+}
+.bottom:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.bottom:active {
+  transform: scale(0.8);
+}
+
+.aside__menu-item,
+.aside__lang-item,
+.button_show {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header,
+  .main,
+  .footer {
+    min-width: 768px;
+    max-width: 1440px;
+  }
+  .repair {
+    margin-left: 40px;
+  }
+  .dis-md,
+  .title_dis-md,
+  .content-more_brends,
+  .content-more_technic,
+  .swiper-img__subtitle_price--dis-md {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  .main {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  .footer {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 280px;
+  }
+  .header,
+  .item_dis-md,
+  .close.aside__header-bottom {
+    display: none;
+  }
+  .checkstatus {
+    margin-right: 0;
+  }
+  .dis-lg,
+  .item_dis-lg,
+  .aside {
+    display: block;
   }
 }
 

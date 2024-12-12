@@ -346,10 +346,6 @@
     font-weight: 400;
     color: #7E7E82;
     margin: 0px 0px 6px 0px;
-
-    &--dis-md {
-        margin-bottom: 40px;
-    }
 }
 
 .swiper-img__item_price {
@@ -440,6 +436,10 @@
         padding: 20px 0px 5px 0px;
         height: auto;
         justify-content: space-between;
+    }
+
+    .swiper-img__subtitle_price--dis-md {
+        margin-bottom: 40px;
     }
 
     .swiper-wrapper_price {
