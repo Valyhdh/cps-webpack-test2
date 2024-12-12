@@ -6,7 +6,7 @@ Swiper.use([ Navigation, Pagination])
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const resizableSwiper1 = (breakpoint, swiperClass, swiperSettings, callback) => {
+    const resizableSwiperBrend = (breakpoint, swiperClass, swiperSettings, callback) => {
         let swiper;
 
         breakpoint = window.matchMedia(breakpoint);
@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    resizableSwiper1(
+    resizableSwiperBrend(
         '(max-width: 767px)',
         '.swiper-brend',
         {
@@ -109,7 +109,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const resizableSwiper2 = (breakpoint, swiperClass, swiperSettings, callback) => {
+    const resizableSwiperTechnic = (breakpoint, swiperClass, swiperSettings, callback) => {
         let swiper;
 
         breakpoint = window.matchMedia(breakpoint);
@@ -143,7 +143,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    resizableSwiper2(
+    resizableSwiperTechnic(
         '(max-width: 767px)',
         '.swiper-technic',
         {
@@ -211,7 +211,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const resizableSwiper3 = (breakpoint, swiperClass, swiperSettings, callback) => {
+    const resizableSwiperPrice = (breakpoint, swiperClass, swiperSettings, callback) => {
         let swiper;
 
         breakpoint = window.matchMedia(breakpoint);
@@ -245,7 +245,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    resizableSwiper3(
+    resizableSwiperPrice(
         '(max-width: 767px)',
         '.swiper-price',
         {
