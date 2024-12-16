@@ -139,6 +139,10 @@
                 padding: 20px 0px 5px 0px;
                 height: auto;
                 justify-content: space-between;
+
+                &--last{
+                    border: none;
+                }
             }
 
             .swiper-img__info {

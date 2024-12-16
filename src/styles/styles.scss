@@ -1,6 +1,7 @@
 @import 
+    "./modules/global",
     "./modules/main",
-    "./modules/mainer-page/main-page",
+    "./modules/mainer-page/main-page",  
     "./modules/mainer-page/scrollbar",
     "./modules/mainer-page//content",
     "./modules/mainer-page/repair-brends",
@@ -9,7 +10,6 @@
     "./modules/mainer-page/aside",
     "./modules/header",
     "./modules/footer",
-    "./modules/modal",
-    "./modules/global";
+    "./modules/modal";
 
 @import "../../node_modules/swiper/swiper-bundle.min.css"
