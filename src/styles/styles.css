@@ -825,15 +825,6 @@ body {
 .header .header-navigation {
   display: flex;
 }
-.header .header-navigation::before {
-  content: " ";
-  background: #EAEAEA;
-  width: 2px;
-  height: 32px;
-  position: absolute;
-  top: 28px;
-  right: 130px;
-}
 .header .header-navigation__title--dis-md {
   display: none;
 }
@@ -848,6 +839,15 @@ body {
     min-width: 768px;
     max-width: 1440px;
   }
+  .header .header-navigation::before {
+    content: " ";
+    background: #EAEAEA;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    top: 28px;
+    right: 130px;
+  }
   .header .header-navigation__title--dis-md {
     display: block;
   }
@@ -855,10 +855,6 @@ body {
 @media (min-width: 1440px) {
   .header {
     display: none;
-  }
-  .header .header-basic__logo::before {
-    content: " ";
-    width: 0;
   }
 }
 

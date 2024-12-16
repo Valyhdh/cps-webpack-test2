@@ -51,16 +51,6 @@
     .header-navigation {
         display: flex;
 
-        &::before {
-            content: " ";
-            background: #EAEAEA;
-            width: 2px;
-            height: 32px;
-            position: absolute;
-            top: 28px;
-            right: 130px;
-        }
-
         &__title {
 
             &--dis-md {
@@ -83,6 +73,16 @@
 
         .header-navigation {
 
+            &::before {
+                content: " ";
+                background: #EAEAEA;
+                width: 2px;
+                height: 32px;
+                position: absolute;
+                top: 28px;
+                right: 130px;
+            }
+
             &__title--dis-md {
                 display: block;
             }
@@ -91,11 +91,5 @@
 
     @media (min-width:1440px) {
         display: none;
-
-        .header-basic__logo::before {
-            content: " ";
-            width: 0;
-        }
-
     }
 }
