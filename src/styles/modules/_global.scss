@@ -2,9 +2,7 @@ body {
     margin: 0;
 }
 
-.header,
-.main,
-.footer {
+.main {
     min-width: 320px;
     max-width: 768px;
 }
@@ -42,11 +40,6 @@ body {
 
 .burger {
     background-image: url('../assets/img/header_img/burger.svg');
-
-    &:active~.aside {
-        transform: translateX(100px);
-        transition: 3s;
-    }
 }
 
 .call {
@@ -66,11 +59,6 @@ body {
 
 .repair {
     background-image: url('../assets/img/header_img/repair.svg');
-
-    &-brends,
-    &-technic {
-        border-bottom: 1px solid #D9FFF5;
-    }
 }
 
 .checkstatus {
@@ -88,14 +76,6 @@ body {
 
 }
 
-.header-navigation,
-.aside__header,
-.aside__header-nav,
-.aside__info-item,
-.modal__form,
-.modal__header {
-    display: flex;
-}
 
 .bottom:not(:last-child) {
     margin-right: 0;
@@ -103,10 +83,7 @@ body {
 
 .item_dis-md,
 .item_dis-lg,
-.nav_dis-lg-flex,
-.title_dis-md,
-.content-more_brends,
-.content-more_technic {
+.title_dis-md {
     display: none;
 }
 
@@ -129,19 +106,11 @@ body {
     }
 }
 
-.aside__menu-item,
-.aside__lang-item,
-.button_show {
-    display: none;
-}
-
 
 
 @media (min-width:768px) {
 
-    .header,
-    .main,
-    .footer {
+    .main {
         min-width: 768px;
         max-width: 1440px;
     }
@@ -153,8 +122,6 @@ body {
 
     .dis-md,
     .title_dis-md,
-    .content-more_brends,
-    .content-more_technic,
     .swiper-img__subtitle_price--dis-md {
         display: block;
     }
@@ -167,15 +134,8 @@ body {
         max-width: 1440px;
     }
 
-    .footer {
-        max-width: 1160px;
-        margin: 0 auto;
-        padding-left: 280px;
-    }
 
-    .header,
-    .item_dis-md,
-    .close.aside__header-bottom {
+    .item_dis-md {
         display: none;
     }
 
@@ -184,9 +144,13 @@ body {
     }
 
     .dis-lg,
-    .item_dis-lg,
-    .aside {
+    .item_dis-lg {
         display: block;
+    }
+
+    .repair::before {
+        content: " ";
+        width: 0;
     }
 
 

@@ -1,0 +1,33 @@
+.scrollbar {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 16px;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        padding: 0;
+    }
+
+    &__menu-link {
+        white-space: nowrap;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'TT Lakes';
+        font-weight: 500;
+        color: #7E7E82;
+        padding: 8px 15px;
+        transition: border-width 0.5s;
+
+        &:focus {
+            border: 2px solid #B8FFEC;
+            border-radius: 5px;
+        }
+    }
+
+    @media (min-width:1440px) {
+        overflow: visible;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+
+    }
+}

@@ -1,0 +1,185 @@
+.price-technic {
+    border-bottom: 1px solid #D9FFF5;
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        color: #7E7E82;
+    }
+
+    .swiper-price {
+
+        &__btn {
+            background-color: #FF3E79;
+            color: #ffffff;
+            border-radius: 16px;
+            border: none;
+            box-sizing: border-box;
+            height: 32px;
+            width: 120px;
+            padding-right: 30px;
+            font-size: 12px;
+            font-family: 'TT Lakes';
+            font-weight: 500;
+            align-self: flex-end;
+            transition: transform .4s, opacity .4s;
+            text-transform: uppercase;
+            position: absolute;
+            left: 124px;
+            bottom: 66px;
+
+            &::after {
+                content: url('../assets/img/header_img/back.svg');
+                position: relative;
+                left: 20px;
+                top: 1px;
+            }
+
+            &:hover {
+                transform: scale(0.9);
+                opacity: 0.8;
+            }
+
+            &:active {
+                transform: scale(0.8);
+                opacity: 1;
+            }
+        }
+
+        .swiper-wrapper_price {
+            height: 250px;
+        }
+
+        .swiper-img_price {
+            width: 260px;
+            height: 200px;
+            box-sizing: border-box;
+            padding: 16px;
+
+            &--last {
+                border: none;
+            }
+        }
+
+        .swiper-img__subtitle_price {
+            font-family: 'TT Lakes Condensed';
+            font-size: 14px;
+            line-height: 16px;
+            text-align: left;
+            font-weight: 400;
+            color: #7E7E82;
+            margin: 0px 0px 6px 0px;
+        }
+
+        .swiper-img__item_price {
+            font-family: 'TT Lakes';
+            font-size: 14px;
+            margin: 0px 0px 16px 0px;
+            color: #1B1C21;
+
+            &--free {
+                margin-right: 9px;
+            }
+        }
+    }
+    
+
+
+.price-text {
+    font-family: 'TT Lakes Condensed';
+    font-weight: normal;
+    color: #1B1C21;
+    font-size: 14px;
+    width: 80%;
+    margin-left: 16px;
+}
+
+.content-more_yr {
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font-family: 'TT Lakes';
+    font-weight: 500;
+    border: none;
+    margin-left: 16px;
+    text-align: left;
+    padding: 0px 50px 40px 0px;
+
+    &::after {
+        content: url('../assets/img/main_img/Line.svg');
+        position: relative;
+        left: 10px;
+    }
+}
+
+@media (min-width:768px) {
+
+    .swiper-price {
+
+        .swiper-wrapper_price {
+            padding: 0px 40px;
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: auto;
+
+            .swiper-slide_price {
+                height: auto;
+                width: 100%;
+            }
+
+            .swiper-img_price {
+                display: flex;
+                width: 100%;
+                border-bottom: 1px solid #EAEAEA;
+                padding: 20px 0px 5px 0px;
+                height: auto;
+                justify-content: space-between;
+            }
+
+            .swiper-img__info {
+                display: flex;
+            }
+
+            .swiper-img__title_price {
+                margin-right: 40px;
+                height: auto;
+            }
+        }
+
+        .swiper-price__btn {
+            position: static;
+            margin-bottom: 10px;
+        }
+
+        .swiper-img__subtitle_price {
+            display: none;
+
+            &--dis-md{
+                margin-bottom: 40px;
+                display: block;
+            }
+        }
+    
+    }
+
+    .price-text {
+        width: 60%;
+    }
+}
+
+@media (min-width:1440px) {
+    .swiper-price__title {
+        margin-right: 150px;
+    }
+
+    .price-text {
+        width: 40%;
+    }
+}
+
+}

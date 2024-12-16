@@ -1,0 +1,152 @@
+.repair-brends {
+    border-bottom: 1px solid #D9FFF5;
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        color: #7E7E82;
+    }
+
+    .content-more_brends {
+        margin: 10px 0px 0px 15px;
+        padding-bottom: 32px;
+        display: none;
+
+
+        &::before {
+            content: url('../assets/img/main_img/expand.svg');
+            position: relative;
+            right: 5px;
+            top: 0px;
+            transition: transform .5s;
+            display: inline-block;
+            transform: rotate(-180deg);
+        }
+
+        &--show:before {
+            transform: rotate(0deg);
+            top: 5px;
+        }
+    }
+
+    .swiper-brend {
+        height: 110px;
+        padding-left: 16px;
+
+
+        .swiper-img_brend {
+            width: 240px;
+            height: 72px;
+            background-color: #ffffff;
+            border: 1px solid #EAEAEA;
+            border-radius: 6px;
+            transition: transform .5s;
+
+            &:hover {
+                transform: scale(0.9);
+            }
+
+            &::after {
+                content: url('../assets/img/main_img/go.svg');
+                position: absolute;
+                left: 185px;
+                top: 15px;
+            }
+        }
+
+        .swiper-img_brend-lenovo::before {
+            content: url('../assets/img/main_img/lenovo.svg');
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+
+        .swiper-img_brend-samsung::before {
+            content: url('../assets/img/main_img/samsung.svg');
+            position: absolute;
+            left: 10px;
+            top: 15px;
+        }
+
+        .swiper-img_brend-apple::before {
+            content: url('../assets/img/main_img/apple.svg');
+            position: absolute;
+            left: 10px;
+            top: 12px;
+        }
+
+        .swiper-img_brend-viewsonic::before {
+            content: url('../assets/img/main_img/viewsonic.svg');
+            position: absolute;
+            left: 10px;
+            top: 25px;
+        }
+
+        .swiper-img_brend-bosch::before {
+            content: url('../assets/img/main_img/bosch.svg');
+            position: absolute;
+            left: 10px;
+            top: 20px;
+        }
+
+        .swiper-img_brend-hp::before {
+            content: url('../assets/img/main_img/hp.svg');
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .swiper-img_brend-acer::before {
+            content: url('../assets/img/main_img/acer.svg');
+            position: absolute;
+            left: 10px;
+            top: 22px;
+        }
+
+        .swiper-img_brend-sony::before {
+            content: url('../assets/img/main_img/sony.svg');
+            position: absolute;
+            left: 10px;
+            top: 22px;
+        }
+    }
+
+    @media (min-width:768px) {
+        .swiper-brend {
+            height: 80px;
+
+            &--show {
+                height: auto;
+            }
+
+            .swiper-wrapper_brend {
+                flex-wrap: wrap;
+                gap: 16px 32px;
+            }
+
+            .swiper-slide_brend {
+                width: auto;
+            }
+        }
+        
+        .content-more_brends{
+            display: block;
+        }
+    }
+
+    @media (min-width:1440px) {
+
+        .swiper-wrapper_brend {
+            grid-template-columns: 24% 24% 24% 24%;
+        }
+
+        .swiper-slide_brend {
+            margin: 0;
+        }
+    }
+}

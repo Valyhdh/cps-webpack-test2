@@ -1,9 +1,15 @@
 @import 
     "./modules/main",
+    "./modules/mainer-page/main-page",
+    "./modules/mainer-page/scrollbar",
+    "./modules/mainer-page//content",
+    "./modules/mainer-page/repair-brends",
+    "./modules/mainer-page/repair-technic",
+    "./modules/mainer-page/price-technic",
+    "./modules/mainer-page/aside",
     "./modules/header",
-    "./modules/main",
     "./modules/footer",
-    "./modules/aside",
-    "./modules/mainer";
+    "./modules/modal",
+    "./modules/global";
 
 @import "../../node_modules/swiper/swiper-bundle.min.css"

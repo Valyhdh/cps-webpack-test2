@@ -1,0 +1,94 @@
+.repair-technic {
+    border-bottom: 1px solid #D9FFF5;
+
+    &__subtitle {
+        text-transform: uppercase;
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        color: #7E7E82;
+    }
+
+    .content-more_technic {
+        margin: 10px 0px 0px 15px;
+        padding-bottom: 32px;
+        display: none;
+
+
+        &::before {
+            content: url('../assets/img/main_img/expand.svg');
+            position: relative;
+            right: 5px;
+            top: 0px;
+            transition: transform .5s;
+            display: inline-block;
+            transform: rotate(-180deg);
+        }
+
+        &--show:before {
+            transform: rotate(0deg);
+            top: 5px;
+        }
+    }
+
+    .swiper-technic {
+        height: 200px;
+        padding-left: 16px;
+
+
+        .swiper-img_technic {
+            width: 240px;
+            height: 160px;
+            background-color: #ffffff;
+            border: 1px solid #EAEAEA;
+            border-radius: 6px;
+            transition: transform .5s;
+
+            &:hover {
+                transform: scale(0.9);
+            }
+
+            &::after {
+                content: url('../assets/img/main_img/go.svg');
+                position: relative;
+                left: 185px;
+                top: 50px;
+            }
+
+            .swiper-img__title {
+                font-family: TT Lakes;
+                font-size: 16px;
+                margin-left: 16px;
+            }
+
+        }
+    }
+
+    @media (min-width:768px) {
+
+        .swiper-technic {
+            height: 170px;
+
+            &--show {
+                height: auto;
+            }
+
+            .swiper-wrapper_technic {
+                flex-wrap: wrap;
+                gap: 16px 32px;
+
+                .swiper-slide_technic {
+                    width: auto;
+                }
+            }
+        }
+
+        .content-more_technic {
+            display: block;
+        }
+
+    }
+}
